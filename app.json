@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "C/N/Pbots",
+    "slug": "cnpbots",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bgill55art.cnpbots"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.bgill55art.cnpbots"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "cdf0595e-0a20-4bbe-91c3-76440f27c817"
+      }
+    },
+    "owner": "bgill55art",
+    "updates": {
+      "url": "https://u.expo.dev/cdf0595e-0a20-4bbe-91c3-76440f27c817"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
