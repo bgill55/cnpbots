@@ -33,6 +33,7 @@
      "android": {
      "node": "16.18.0",
      "buildType": "apk"
+     "image": "default"
       },
       "ios": {
         "image": "latest"
