@@ -31,7 +31,7 @@
     },
     "production": {
      "android": {
-     "node": "16.18.0",
+     "node": "22.4.0",
      "buildType": "apk",
      "image": "default"
       },
