@@ -33,9 +33,9 @@
       }
     },
     "production": {
-      "channel": "production",
-      "android": {
-        "image": "default"
+     "android": {
+     "node": "16.18.0",
+     "buildType": "apk"
       },
       "ios": {
         "image": "latest"
